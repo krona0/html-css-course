@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p{
+            margin: 0px;
+        }
+
+        .user-profile{
+            width: 100%;
+            border: 1px #000 none;
+            box-shadow: 0px 0px 4px rgb(0,0,0,0.3);
+        }
+
+        .container-pic{
+            width: 100%;
+            height: auto;
+        }
+
+        .user-pic{
+            width: 100%;
+            height: auto;
+        }
+
+        .container-info{
+            width: 100%;
+        }
+
+        .user-name{
+            font-size: 18px;
+            font-weight: bold;
+            margin: 4px 8px;
+        }
+
+        .mutual-friends{
+            display: grid;
+            grid-template-columns: 25px 1fr;
+            align-items: center;
+            column-gap: 8px;
+            margin-left: 8px;
+        }
+
+        .friend-pic{
+            width: 100%;
+            border-radius: 50px;
+        }
+
+        .mutual-info{
+            color: #7A7A7A;
+            align-items: center;
+        }
+
+        .button-add{
+            background-color: #3775EA;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 25px;
+            margin: 5px 8px;
+        }
+
+        .profile-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+            margin: 10px 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="profile-grid">
+        <div class="user-profile">
+            <div class="container-pic">
+                <img class="user-pic" src="images/header.webp" >
+            </div>
+            <div class="container-info">
+                <p class="user-name">Alice</p>
+                <div class="mutual-friends">
+                    <img class="friend-pic" src="images/mutral.jpg" >
+                    <p class="mutual-info">2 mutual friends</p>
+                </div>
+                <button class="button-add">Add Friend</button>
+            </div> 
+        </div>
+    
+        <div class="user-profile">
+            <div class="container-pic">
+                <img class="user-pic" src="images/robert.jpg" >
+            </div>
+            <div class="container-info">
+                <p class="user-name">Robert</p>
+                <div class="mutual-friends">
+                    <img class="friend-pic" src="images/mutral.jpg" >
+                    <p class="mutual-info">4 mutual friends</p>
+                </div>
+                <button class="button-add">Add Friend</button>
+            </div> 
+        </div>
+    
+        <div class="user-profile">
+            <div class="container-pic">
+                <img class="user-pic" src="images/adams.jpg" >
+            </div>
+            <div class="container-info">
+                <p class="user-name">Adams</p>
+                <div class="mutual-friends">
+                    <img class="friend-pic" src="images/mutral.jpg" >
+                    <p class="mutual-info">3 mutual friends</p>
+                </div>
+                <button class="button-add">Add Friend</button>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>

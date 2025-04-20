@@ -1,0 +1,31 @@
+.main-sheet{
+    max-width: 400px;
+
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+
+    text-align: center;
+    padding: 10px;
+}
+
+.sheet-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.message-title{
+    font-size: 20px;
+}
+
+.new-message{
+    background-color: #4A77EE;
+    color: white;
+    
+    border-radius: 13px;
+
+    padding: 5px 11px;
+}

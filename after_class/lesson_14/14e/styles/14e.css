@@ -1,0 +1,61 @@
+body{
+    height: 3000px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.user-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    height: 63px;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    border: none;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+
+    padding: 8px 50px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.user-pic{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.user-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button-add,
+.button-message{
+    border: none;
+    border-radius: 8px;
+
+    font-size: 18px;
+    padding: 12px 16px;
+}
+
+.button-add{
+    background-color: #3772DB;
+    color: white;
+
+    margin-right: 10px;
+}
+
+.button-message{
+    background-color: #E3E6EA;
+    color: black;
+}
