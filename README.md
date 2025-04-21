@@ -10,6 +10,22 @@
 
 ## 📁 项目结构
 
+<pre>
+```bash
+├── after_class
+├── channels
+├── flexbox.html
+├── grid.html
+├── icons
+├── intro-to-html
+├── position.html
+├── solution
+├── styles
+├── thumbnail
+└── youtube.html
+```
+</pre>
+
 ## 🚀 如何预览
 
 可以直接在浏览器打开每个文件夹下的 `.html` 文件，或者使用 VSCode 的 Live Server 插件进行本地预览。
